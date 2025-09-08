@@ -1,3 +1,15 @@
+/* :root{ 
+    --background-color: rgb(234, 229, 229);
+    --dark-color: rgb(129, 24, 234);
+    --light-color: white;
+    --link-color: rgb(250, 147, 164);
+}*/
+
+main {
+    position: relative;
+    max-width: 1080px;
+    margin: 10px auto;
+}
 
 body {
     background-color: rgb(243, 237, 237);
@@ -5,7 +17,7 @@ body {
 }
 
 body {
-    font-family: 'Work Sans', sans-serif; /* added font (SEP 3) */
+    font-family: 'Work Sans', sans-serif; /* added font (SEP 7) */
     font-optical-sizing: auto;
     font-style: normal;
     background-color: var(--background-color);
@@ -13,3 +25,37 @@ body {
     font-size: 1em;
 }
 
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#head h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
+/* need to figure out spacing for <h2> elements */
+
+h2 {
+    margin: 1.5em 0 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.title {
+    background-color: rgb(24, 119, 234);
+    padding: 10px; /* space between text and border */
+    margin: 20px; /* space between border and surrounding elements*/
+    width: 170px; /* size of the box */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+}
