@@ -1,11 +1,15 @@
+
 body {
     background-color: rgb(243, 237, 237);
     color: black;
 }
 
-h1 {
-    color: rgb(48, 48, 218);
-    font-family: 'Work Sans', sans-serif; /* added font (SEP 1) */
-    font-weight: 400;
-    font-style: medium;
+body {
+    font-family: 'Work Sans', sans-serif; /* added font (SEP 3) */
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--background-color);
+    margin: 1em;
+    font-size: 1em;
 }
+
