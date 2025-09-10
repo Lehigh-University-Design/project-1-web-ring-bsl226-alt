@@ -8,26 +8,47 @@
 main {
     position: relative;
     max-width: 1080px;
-    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+
+    /* align-items: center;
+    justify-content: center;
+    align-items: center; */
 }
 
-body {
-    background-color: rgb(243, 237, 237);
-    color: black;
-}
 
 body {
     font-family: 'Work Sans', sans-serif; /* added font (SEP 7) */
     font-optical-sizing: auto;
     font-style: normal;
     background-color: var(--background-color);
-    margin: 1em;
+    /* margin: 1em; */
     font-size: 1em;
+    
+    background-color: rgb(243, 237, 237);
+    color: black;
+
+
+    cursor: url('https://cdn.custom-cursor.com/db/pointer/arrow2138.png'), auto;
+
+    background-color: #298eaf;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 
 #head {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 50px;
+
+
+}
+
+#head p {
+    font-size: 1em;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;    
 }
 
 #head h3 a {
@@ -35,29 +56,62 @@ body {
     text-decoration: none;
     font-size: 1.5em;
     
+    /* text-align: center;
+    justify-content: center;  */
+
 }
 
-/* need to figure out spacing for <h2> elements */
-
-h2 {
-    margin: 1.5em 0 1.5em;
-    font-size: 1.5em;
-    font-weight: bold;
+#head h3 a:hover {
+    color: var(--link-color);
+    text-decoration: underline;
 }
 
 .title {
     background-color: rgb(24, 119, 234);
     padding: 10px; /* space between text and border */
-    margin: 20px; /* space between border and surrounding elements*/
-    width: 200px; /* size of the box */
-    text-align: center;
+    margin: 30px;
+    
     display: flex;
+    text-align: center;
     justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 300px;  */
+
 }
 
 .row {
     display: flex;
-    gap: 50px;
+    flex-direction: row;
+    gap: 20px;
+
+    /* padding: 10px;  */
+    /* margin: 30px;  */
+    
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100px;    */
 }
 
 /* make button styles */
+
+#hoop {
+
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    
+
+}
+
+#confetti {
+    display: none;
+    
+}
