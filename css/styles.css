@@ -63,7 +63,7 @@ body {
     font-size: 1.8em;
     
     color: white;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
     /* text-align: center;
     justify-content: center;  */
 
@@ -92,6 +92,11 @@ body {
 
 }
 
+.title p a {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
+
+}
 
 .row {
     display: flex;
@@ -108,9 +113,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* width: 100px;    */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
 }
 
-.row {
+.row p a {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
 
