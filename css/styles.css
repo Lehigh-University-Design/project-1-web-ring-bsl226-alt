@@ -22,9 +22,9 @@ body {
     font-family: 'Work Sans', sans-serif; /* added font (SEP 7) */
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     /* margin: 1em; */
-    font-size: 1em;
+    font-size: 1.2em;
     
     background-color: rgb(243, 237, 237);
     color: black;
@@ -33,7 +33,10 @@ body {
     cursor: url('https://cdn.custom-cursor.com/db/pointer/arrow2138.png'), auto;
 
     background-color: #298eaf;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    background-image: url("https://courtsunlimitedut.com/wp-content/uploads/2024/07/How-Big-is-an-Outdoor-Basketball-Court.jpg");
+    background-size: cover;      /* or 'contain', or specific size */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #head {
@@ -45,17 +48,22 @@ body {
 }
 
 #head p {
-    font-size: 1em;
-    margin: 0px;
+    font-size: 1.2em;
+    margin: 10px;
     text-align: center;
-    justify-content: center;    
+    justify-content: center; 
+    
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
 }
 
 #head h3 a {
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.8em;
     
+    color: white;
+
     /* text-align: center;
     justify-content: center;  */
 
@@ -79,7 +87,11 @@ body {
     margin-right: auto;
     /* width: 300px;  */
 
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
+
 }
+
 
 .row {
     display: flex;
@@ -98,20 +110,58 @@ body {
     /* width: 100px;    */
 }
 
+.row {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
+
+}
 /* make button styles */
 
 #hoop {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-img:hover {
+#hoop:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
     
-
 }
 
 #confetti {
     display: none;
     
 }
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* black shadow */
+
+    padding: 30px;
+    margin: 50px 0px 100px;
+
+}
+
+/* embed {
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px #aaa;
+  max-width: 100%;
+  height: auto;
+} */
+
+/* .hide-me {
+    display: none;
+} */
