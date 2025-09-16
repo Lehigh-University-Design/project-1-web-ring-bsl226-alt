@@ -173,3 +173,32 @@ footer{
     display: none;
 } */
 
+/* sorry I needed CoPilot to make this work */
+
+
+/* confetti overlay: hidden by default, revealed when #hoop is hovered */
+#scary {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    pointer-events: none; /* avoid intercepting mouse when hidden */
+    transition: opacity 0.35s ease, visibility 0.35s ease, transform 0.35s ease;
+    transform: scale(1.02);
+    object-fit: cover;
+}
+
+/* reveal #scary when hovering or focusing #hoop (use + and ~ for robustness) */
+#hoop:hover + #scary,
+#hoop:focus + #scary,
+#hoop:hover ~ #scary,
+#hoop:focus ~ #scary {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: scale(1);
+}
